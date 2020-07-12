@@ -1,0 +1,12 @@
+$(document).ready(function(){
+    $('.menu').click(function(){
+        if($('.sub-menu').hasClass('hidden')){
+            $('.sub-menu').removeClass('hidden');
+            $('.sub-menu').addClass('block');
+        }
+        else{
+            $('.sub-menu').removeClass('block');
+            $('.sub-menu').addClass('hidden');
+        }
+    });
+});
